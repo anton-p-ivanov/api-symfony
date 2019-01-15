@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="ru" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="response.error.account_not_found">
+                <source>response.error.account_not_found</source>
+                <target>Контрагент не найден. Проверьте регистрационный код.</target>
+            </trans-unit>
+            <trans-unit id="response.error.parameter_not_set">
+                <source>response.error.parameter_not_set</source>
+                <target>Обязательный параметр `%name%` не задан.</target>
+            </trans-unit>
+            <trans-unit id="response.error.invalid_password">
+                <source>response.error.invalid_password</source>
+                <target>Пароль указан неверно.</target>
+            </trans-unit>
+            <trans-unit id="response.error.user_not_active">
+                <source>response.error.user_not_active</source>
+                <target>Профиль пользователя заблокирован.</target>
+            </trans-unit>
+            <trans-unit id="response.error.user_not_found">
+                <source>response.error.user_not_found</source>
+                <target>Профиль пользователя не найден.</target>
+            </trans-unit>
+
+            <trans-unit id="exceptions.oauth.user_not_found">
+                <source>exceptions.oauth.user_not_found</source>
+                <target>Пользователь не найден.</target>
+            </trans-unit>
+            <trans-unit id="exceptions.oauth.invalid_password">
+                <source>exceptions.oauth.invalid_password</source>
+                <target>Пароль указан неверно.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

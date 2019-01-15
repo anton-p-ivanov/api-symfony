@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="constraint.checkword.is_invalid">
+                <source>constraint.checkword.is_invalid</source>
+                <target>Checkword is invalid.</target>
+            </trans-unit>
+            <trans-unit id="constraint.checkword.is_expired">
+                <source>constraint.checkword.is_expired</source>
+                <target>Checkword has expired.</target>
+            </trans-unit>
+            <trans-unit id="constraint.exist_entity.message">
+                <source>constraint.exist_entity.message</source>
+                <target>Entity does not exist.</target>
+            </trans-unit>
+            <trans-unit id="constraint.user.email.not_found">
+                <source>constraint.user.email.not_found</source>
+                <target>User not found.</target>
+            </trans-unit>
+            <trans-unit id="constraint.code.account_not_found">
+                <source>constraint.code.account_not_found</source>
+                <target>Account not found. Please check registration code.</target>
+            </trans-unit>
+            <trans-unit id="constraint.user.email_already_taken">
+                <source>constraint.user.email_already_taken</source>
+                <target>This E-Mail is already taken.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

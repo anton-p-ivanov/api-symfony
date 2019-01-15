@@ -1,0 +1,5 @@
+swiftmailer:
+    url: '%env(MAILER_URL)%'
+    delivery_address:
+        - a.ivanov@aladdin.ru
+#    spool: { type: 'memory' }

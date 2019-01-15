@@ -1,0 +1,6 @@
+oauth:
+    path: /oauth/token
+    methods: [ post ]
+    controller: \App\Controller\OAuthController:token
+    defaults:
+        _format: json

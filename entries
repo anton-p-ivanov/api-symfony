@@ -1,0 +1,30 @@
+POST:   /auth/token, {json: {grant_type: ..., username: ..., password: ...}}
+GET:    /auth/rbac, {query: {user_uuid: ...}}
+
+GET:    /users
+PUT:    /users/{uuid}, {json: attributes}
+GET:    /users/validate-removal
+POST:   /users/confirm, {json: attributes}
+POST:   /users/password-change, {json: attributes}}
+POST:   /users/password-reset, {json: attributes}}
+POST:   /users, {json: attributes}}
+POST:   /users/validate, {json: attributes}}
+POST:   /users/request-removal, {json: attributes}}
+
+POST:   /default/search, {json: attributes}}
+
+POST:   /bitrix/users/transfer, {json: {username: ..., password: ...}}
+GET:    /bitrix/users/find-by-username, {query: {username: ...}}
+POST:   /bitrix/users/validate-password, {json: {username: ..., password: ...}}
+
+GET:    /forms/forms/get, {query: {code: ...}}
+POST:   /forms/results, {json: {form_uuid: ..., properties: ...}}
+
+GET:    /catalogs/elements
+
+GET:    /sites
+
+GET:    /storage/files/{uuid}
+GET:    /storage/storage
+GET:    /storage/library
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="ru" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="constraint.checkword.is_invalid">
+                <source>constraint.checkword.is_invalid</source>
+                <target>Контрольная строка указана неверно.</target>
+            </trans-unit>
+            <trans-unit id="constraint.checkword.is_expired">
+                <source>constraint.checkword.is_expired</source>
+                <target>Срок действия контрольной строки истёк.</target>
+            </trans-unit>
+            <trans-unit id="constraint.exist_entity.message">
+                <source>constraint.exist_entity.message</source>
+                <target>Сущность не найдена.</target>
+            </trans-unit>
+            <trans-unit id="constraint.user.email.not_found">
+                <source>constraint.user.email.not_found</source>
+                <target>Пользователь не найден.</target>
+            </trans-unit>
+            <trans-unit id="constraint.code.account_not_found">
+                <source>constraint.code.account_not_found</source>
+                <target>Контрагент не найден. Проверьте регистрационный код.</target>
+            </trans-unit>
+            <trans-unit id="constraint.user.email_already_taken">
+                <source>constraint.user.email_already_taken</source>
+                <target>Этот E-Mail уже занят.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
